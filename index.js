@@ -6,6 +6,7 @@ const userRouter = require("./routes/user");
 
 
 // Middleware for parsing request
+// comment 
 app.use(bodyParser.json());
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
